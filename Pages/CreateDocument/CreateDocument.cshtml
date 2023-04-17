@@ -1,0 +1,28 @@
+﻿@page
+@model LDRTE.Pages.CreateDocument.CreateDocumentModel
+@{
+}
+<h2 class=" border rounded text-center text-white my-3 p-2" style="background-color:#07901d;">Create Document</h2>
+
+
+<form method="post">
+    <div class="form-group">
+        <label for="Id">Id</label>
+        <input type="text" class="form-control" id="Id" name="Id" placeholder="Enter Id">
+    </div>
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" class="form-control" id="Title" name="Title" placeholder="Enter Title">
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input type="text" class="form-control" id="Description" name="Description" placeholder="Enter Description">
+    </div>
+    <div class="form-group">
+        <label for="Content">Content</label>
+        <textarea class="form-control" id="tiny" name="Content" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

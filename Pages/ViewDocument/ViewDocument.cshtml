@@ -1,0 +1,24 @@
+﻿@page
+@model LDRTE.Pages.ViewDocument.ViewDocumentModel
+@{
+}
+
+<h2 class=" border rounded text-center text-white my-3 p-2" style="background-color:#07901d;">View Document</h2>
+
+<div class="form-group">
+    <label for="Id">Id</label>
+    <input type="text" class="form-control" id="Id" name="Id" placeholder="Enter Id" value="@Model.Document.Id" readonly>
+</div>
+<div class="form-group">
+    <label for="Title">Title</label>
+    <input type="text" class="form-control" id="Title" name="Title" placeholder="Enter Title" value="@Model.Document.Title" readonly>
+</div>
+<div class="form-group">
+    <label for="Description">Description</label>
+    <input type="text" class="form-control" id="Description" name="Description" placeholder="Enter Description" value="@Model.Document.Description" readonly>
+</div>
+<div class="form-group">
+    <label for="Content">Content</label>
+    <textarea class="form-control" id="tiny" name="Content" rows="3" readonly>@Model.Document.Content</textarea>
+</div>
+
